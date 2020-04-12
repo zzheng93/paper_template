@@ -1,8 +1,10 @@
 # General Guidance for Writing a Paper
 
+Zhonghua Zheng (zhonghua.zheng@outlook.com)
+
 ## Instructions
 
-1. name the repo “paper_xxx_journal”, e.g. paper_UHWs_NCC  
+1. name the repo "paper_xxx_journal", e.g. paper_UHWs_acp
 
 2. create the following folders for different paper versions  
 
