@@ -1,4 +1,4 @@
-# General Guidance for Writing a Paper and Preparing for Code {ignore=true}
+# General Guidance for Writing a Paper and Preparing for Code
 Zhonghua Zheng (zhonghua.zheng@outlook.com)
 
 
