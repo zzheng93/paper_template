@@ -16,11 +16,12 @@ Zhonghua Zheng (zhonghua.zheng@outlook.com)
 3. add `*.DS_Store` and `paper_xxx_journal.pdf` to the `.gitignore` via webpage
 4. create the following folders for different paper versions  
    - 0_template  
-   - 1_submitted  
-   - 2_response_to_reviewers  
-   - 3_revised  
-   - 4_final  
-   - 5_proofs   
+   - 1_draft
+   - 2_submitted  
+   - 3_response_to_reviewers  
+   - 4_revised  
+   - 5_final  
+   - 6_proofs   
 5. within each folder
    - name the latex file the same: `paper_xxx_journal.tex`
    - name the bibtex file `refs_xxx_journal.bib  `
@@ -34,16 +35,20 @@ Zhonghua Zheng (zhonghua.zheng@outlook.com)
    - model
    - data
    - 0_scratch  
-   - 1_submitted
-   - 2_response_to_reviewers  
-   - 3_revised  
-   - 4_final  
-   - 5_proofs  
+   - 1_draft
+   - 2_submitted
+   - 3_response_to_reviewers  
+   - 4_revised  
+   - 5_final  
+   - 6_proofs  
 5. create [symbolic link](https://apple.stackexchange.com/questions/115646/how-can-i-create-a-symbolic-link-in-terminal)
    ```bash
    ln -s ./data ./0_scratch/data
-   ln -s ./data ./1_submitted/data
+   ln -s ./data ./1_draft/data
+   ln -s ./data ./2_submitted/data
+   # to remove the link
    # rm -rf ./0_scratch/data
-   # rm -rf ./1_submitted/data
+   # rm -rf ./1_draft/data
+   # rm -rf ./2_submitted/data
    ```
-6. Before submitting the paper, using `1_submitted` to check the code
+6. Before submitting the paper, using `2_submitted` to check the code
